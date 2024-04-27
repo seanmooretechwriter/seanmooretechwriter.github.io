@@ -3,7 +3,7 @@ import { ComputedRef, computed } from "vue";
 
 const defineMainApplicationStore = () => {
   const state = {
-    appID: "seanVue3Website"
+    id: "seanVue3Website"
   };
 
   const getterFunction: ComputedRef<string> = computed(() => "some value" );
