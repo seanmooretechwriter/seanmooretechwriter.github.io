@@ -1,15 +1,17 @@
 import { defineStore } from "pinia";
-import { ComputedRef, computed } from "vue";
+import { ComputedRef, Ref, computed, ref } from "vue";
 
 const defineMainApplicationStore = () => {
-  const state = {
-    id: "seanVue3Website"
-  };
+  //const state = {
+    
+  //};
 
+  const applicationID: Ref<string> = ref("seanVue3Website");
   const getterFunction: ComputedRef<string> = computed(() => "some value" );
 
   return {
-    ...state,
+    //...state,
+    applicationID,
     getterFunction
   };
 };
