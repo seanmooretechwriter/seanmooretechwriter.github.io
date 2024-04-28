@@ -21,9 +21,13 @@ describe("NavigationMenu", () => {
       },
     });
 
+    const homeItem = wrapper.find('[title="Home"]');
     const blogItem = wrapper.find('[title="Blog"]');
     const aboutItem = wrapper.find('[title="About"]');
     const resumeItem = wrapper.find('[title="Resume"]');
+
+    await homeItem.trigger("click");
+    expect(mockRouter.push).toHaveBeenCalledWith("/");
 
     await blogItem.trigger("click");
     expect(mockRouter.push).toHaveBeenCalledWith("/blog");

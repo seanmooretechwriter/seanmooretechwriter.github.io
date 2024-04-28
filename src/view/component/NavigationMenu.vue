@@ -2,6 +2,7 @@
   <v-layout>
     <v-navigation-drawer class="bg-grey-darken-4" width="210" theme="dark" permanent>
       <v-list color="transparent">
+        <v-list-item prepend-icon="mdi-post" title="Home" @click="navigate('/')"></v-list-item>
         <v-list-item prepend-icon="mdi-post" title="Blog" @click="navigate('/blog')"></v-list-item>
         <v-list-item prepend-icon="mdi-information" title="About" @click="navigate('/about')"></v-list-item>
         <v-list-item prepend-icon="mdi-file-account" title="Resume" @click="navigate('/resume')"></v-list-item>

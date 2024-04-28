@@ -16,24 +16,17 @@ import NavigationMenu from "./view/component/NavigationMenu.vue";
 import Header from "./view/component/Header.vue";
 import { useMainApplicationStore } from "./store";
 import { storeToRefs } from "pinia";
-//import { onMounted } from "vue";
 
-//onMounted(()=>{
 const store = useMainApplicationStore();
 const { applicationID } = storeToRefs(store);
 
 console.log("applicationID: ", applicationID.value);
 console.log("getterFunction: ", store.getterFunction);
-//});
 </script>
 
 <style>
 .main-app-container {
   height: 90%;
-}
-
-.main-body {
-  /*width: 100%;*/
 }
 
 .main-footer {
