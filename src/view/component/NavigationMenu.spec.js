@@ -39,3 +39,29 @@ describe("NavigationMenu", () => {
     expect(mockRouter.push).toHaveBeenCalledWith("/resume");
   });
 });
+
+  describe("NavigationMenu", () => {
+    it("sets props correctly and has correct icons", async () => {
+      const wrapper = mount(NavigationMenu, {
+        props: {
+          width: 300
+        }
+      });
+  
+      expect(wrapper.attributes('width')).toBe('300');
+  
+      expect(wrapper.classes()).toContain('bg-grey-darken-4');
+      expect(wrapper.attributes('theme')).toBe('dark');
+  
+      const homeItem = wrapper.find('[title="Home"]');
+      const blogItem = wrapper.find('[title="Blog"]');
+      const aboutItem = wrapper.find('[title="About"]');
+      const resumeItem = wrapper.find('[title="Resume"]');
+  
+     expect(homeItem.attributes("prepend-icon")).toBe("mdi-home-outline");
+     expect(blogItem.attributes("prepend-icon")).toBe("mdi-post");
+     expect(aboutItem.attributes("prepend-icon")).toBe("mdi-information");
+     expect(resumeItem.attributes("prepend-icon")).toBe("mdi-file-account");
+  
+    });
+});
