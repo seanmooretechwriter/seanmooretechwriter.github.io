@@ -3,7 +3,7 @@ import { describe, it, expect, vi, beforeEach } from "vitest";
 import { mount } from "@vue/test-utils";
 import App from "@/App.vue";
 import { createPinia, setActivePinia } from "pinia";
-import { useMainApplicationStore } from "@/store"; // Make sure this import path matches your project structure
+import { useMainApplicationStore } from "@/store";
 import { createRouter, createWebHistory } from "vue-router";
 
 vi.mock("@/view/component/Header.vue", () => ({
@@ -42,20 +42,9 @@ describe("App.vue", () => {
 
     await router.isReady();
 
-    // Check initial values from the store
     expect(store.applicationID).toBe("seanVue3Website");
-    expect(store.applicationTitle).toBe("Sean Moore - Software Developer & Technical Writer");
+    expect(store.applicationTitle).toBe("Sean Moore");
     expect(store.getterFunction).toBe("some value");
-
-    // Example if you had an action to change the applicationID
-    // store.setApplicationID("newID");
-    // expect(store.applicationID).toBe("newID");
-    
-    // Verify that the DOM reflects these values if they are rendered
-    // For example, if you display the applicationTitle somewhere in App.vue
-    // expect(wrapper.text()).toContain("Sean Moore - Software Developer & Technical Writer");
-
-    // Verify component renders
     expect(wrapper.findComponent({ name: "Header" }).exists()).toBe(true);
     expect(wrapper.findComponent({ name: "NavigationMenu" }).exists()).toBe(true);
     expect(wrapper.find("v-main").exists()).toBe(true);

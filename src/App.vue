@@ -1,8 +1,8 @@
 <template>
   <v-app>
-    <Header />
+    <Header :title="applicationTitle" :subtitle="applicationSubtitle" />
     <v-layout class="main-app-container">
-      <NavigationMenu class="mainNavigationMenu" />
+      <NavigationMenu :width="210" class="mainNavigationMenu" />
       <v-main class="main-body">
         <router-view></router-view>
       </v-main>
@@ -18,7 +18,7 @@ import { useMainApplicationStore } from "./store";
 import { storeToRefs } from "pinia";
 
 const store = useMainApplicationStore();
-const { applicationID } = storeToRefs(store);
+const { applicationID, applicationTitle, applicationSubtitle } = storeToRefs(store);
 
 console.log("applicationID: ", applicationID.value);
 console.log("getterFunction: ", store.getterFunction);

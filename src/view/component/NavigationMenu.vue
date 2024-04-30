@@ -1,7 +1,7 @@
 <template>
   <v-navigation-drawer
     class="bg-grey-darken-4"
-    width="210"
+    :width="width"
     theme="dark"
     permanent
   >
@@ -32,6 +32,12 @@
 
 <script setup lang="ts">
 import { useRouter } from "vue-router";
+
+interface Props {
+  width: number;
+}
+defineProps<Props>();
+
 const router = useRouter();
 
 const navigate = (path: string) => {
