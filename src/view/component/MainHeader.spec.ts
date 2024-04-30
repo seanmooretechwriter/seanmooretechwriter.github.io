@@ -39,13 +39,23 @@ describe('Header', () => {
   });
 
   it('has the correct styling', () => {
-    const wrapper = mount(Header);
+    const wrapper = mount(Header, {
+      props: {
+        title: 'My Title',
+        subtitle: 'My Subtitle'
+      }
+    });
     const mainHeaderDiv = wrapper.find('.main-header');
     expect(mainHeaderDiv.classes()).toContain('bg-black');
   });
 
   it('uses semantic HTML correctly', () => {
-    const wrapper = mount(Header);
+    const wrapper = mount(Header, {
+      props: {
+        title: 'My Title',
+        subtitle: 'My Subtitle'
+      }
+    });
 
     expect(wrapper.find('h2').exists()).toBeTruthy();
     expect(wrapper.find('h4').exists()).toBeTruthy();

@@ -27,7 +27,7 @@ describe("App.vue", () => {
   });
 
   it("initializes store values and checks computed properties", async () => {
-    const store = useMainApplicationStore(); // Access the actual store used in your app
+    const store = useMainApplicationStore();
 
     const router = createRouter({
       history: createWebHistory(),
@@ -44,6 +44,7 @@ describe("App.vue", () => {
 
     expect(store.applicationID).toBe("seanVue3Website");
     expect(store.applicationTitle).toBe("Sean Moore");
+    expect(store.applicationSubtitle).toBe("Software Developer & Technical Writer");
     expect(store.getterFunction).toBe("some value");
     expect(wrapper.findComponent({ name: "Header" }).exists()).toBe(true);
     expect(wrapper.findComponent({ name: "NavigationMenu" }).exists()).toBe(true);

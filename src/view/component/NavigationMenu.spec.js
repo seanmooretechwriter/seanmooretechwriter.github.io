@@ -14,6 +14,9 @@ vi.mock("vue-router", () => ({
 describe("NavigationMenu", () => {
   it("navigates to correct path when list items are clicked", async () => {
     const wrapper = mount(NavigationMenu, {
+      props: {
+        width: 300
+      },
       global: {
         mocks: {
           $router: mockRouter,
