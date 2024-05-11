@@ -8,7 +8,7 @@
       <p class="mb-2 role__duration">Nov 2023 - Present</p>
     </v-row>
     <v-row class="mr-8 mb-4">
-      <p class="mb-2">Description goes here.</p>
+      <p class="mb-2">Description in progress.</p>
     </v-row>
 
     <v-row class="mr-8">
@@ -18,7 +18,7 @@
       <p class="mb-2 role__duration">Jan 2021 - Nov 2023</p>
     </v-row>
     <v-row class="mr-8 mb-4">
-      <p class="mb-2">Description goes here.</p>
+      <p class="mb-2">Description in progress.</p>
     </v-row>
 
     <v-row class="mr-8">
@@ -28,7 +28,7 @@
       <p class="mb-2 role__duration">Jul 2022 - Jan 2023</p>
     </v-row>
     <v-row class="mr-8 mb-4">
-      <p class="mb-2">Description goes here.</p>
+      <p class="mb-2">Description in progress.</p>
     </v-row>
 
     <v-row class="mr-8">
@@ -38,7 +38,7 @@
       <p class="mb-2 role__duration">May 2007 - Jan 2021</p>
     </v-row>
     <v-row class="mr-8 mb-4">
-      <p class="mb-2">Description goes here.</p>
+      <p class="mb-2">Description in progress.</p>
     </v-row>
 
     <v-row class="mr-8">
@@ -48,7 +48,7 @@
       <p class="mb-2 role__duration">Jan 2013 - Jun 2013</p>
     </v-row>
     <v-row class="mr-8 mb-4">
-      <p class="mb-2">Description goes here.</p>
+      <p class="mb-2">Description in progress.</p>
     </v-row>
 
     <v-row class="mr-8">
@@ -58,7 +58,7 @@
       <p class="mb-2 role__duration">May 2007 - Aug 2012</p>
     </v-row>
     <v-row class="mr-8 mb-4">
-      <p class="mb-2">Description goes here.</p>
+      <p class="mb-2">Description in progress.</p>
     </v-row>
 
     <v-row class="mr-8">
@@ -68,7 +68,7 @@
       <p class="mb-2 role__duration">Mar 2003 - May 2007</p>
     </v-row>
     <v-row class="mr-8 mb-4">
-      <p class="mb-2">Description goes here.</p>
+      <p class="mb-2">Description in progress.</p>
     </v-row>
 
     <v-row class="mr-8">
@@ -78,7 +78,7 @@
       <p class="mb-2 role__duration">Jan 1999 - Mar 2003</p>
     </v-row>
     <v-row class="mr-8 mb-4">
-      <p class="mb-2">Description goes here.</p>
+      <p class="mb-2">Description in progress.</p>
     </v-row>
 
     <v-row class="mr-8">
@@ -88,7 +88,7 @@
       <p class="mb-2 role__duration">Feb 1998 - Jan 1999</p>
     </v-row>
     <v-row class="mr-8 mb-4">
-      <p class="mb-2">Description goes here.</p>
+      <p class="mb-2">Description in progress.</p>
     </v-row>
   </v-col>
 </template>
