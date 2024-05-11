@@ -12,6 +12,7 @@
 </template>
 
 <script setup lang="ts">
+console.time('🕓 Application Loaded');
 import NavigationMenu from "./view/component/NavigationMenu.vue";
 import Header from "./view/component/Header.vue";
 import { useMainApplicationStore } from "./store";
@@ -19,9 +20,14 @@ import { storeToRefs } from "pinia";
 
 const store = useMainApplicationStore();
 const { applicationID, applicationTitle, applicationSubtitle } = storeToRefs(store);
+console.info(`%c🐰 Starting: ${applicationID.value}...`, 'color:Green');
 
-console.log("applicationID: ", applicationID.value);
-console.log("getterFunction: ", store.getterFunction);
+
+console.timeEnd('🕓 Application Loaded');
+
+console.group(`%c✨ Project Information`, 'color:Yellow');
+console.info(`%cEnvironment: ${import.meta.env.MODE}`, 'color:DodgerBlue');
+console.groupEnd();
 </script>
 
 <style>

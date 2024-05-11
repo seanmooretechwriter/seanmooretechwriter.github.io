@@ -1,8 +1,9 @@
 <template>
   <div class="mb-5 page-title">Blog</div>
-  <img :src="UnderConstruction" width="600" />
+  <BlogPostList />
 </template>
 
 <script setup lang="ts">
-import UnderConstruction from "../assets/under-construction.png";
+import BlogPostList from "@/view/component/BlogPostList.vue";
 </script>
+

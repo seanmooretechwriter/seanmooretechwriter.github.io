@@ -1,0 +1,14 @@
+[
+  {
+    "id": "05-11-24",
+    "title": "First Post",
+    "description": "This is the first post in my blog.",
+    "filename": "05-11-24.md"
+  },
+  {
+    "id": "05-12-24",
+    "title": "Second Post",
+    "description": "A deeper dive into more complex topics.",
+    "filename": "05-12-24.md"
+  }
+]

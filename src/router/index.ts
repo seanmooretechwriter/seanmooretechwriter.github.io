@@ -12,6 +12,12 @@ const routes = [
     component: () => import('@/view/Blog.vue')
   },
   {
+    path: '/blog-posts/:id', // Dynamic path for blog posts
+    name: 'BlogPost',
+    component: () => import('@/view/BlogPost.vue'),
+    props: true
+  },
+  {
     path: '/about',
     name: 'About',
     component: () => import('@/view/About.vue')
