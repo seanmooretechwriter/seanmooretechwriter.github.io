@@ -32,4 +32,7 @@ console.log("getterFunction: ", store.getterFunction);
 .main-footer {
   height: 10%;
 }
+
+.main-body {
+}
 </style>
