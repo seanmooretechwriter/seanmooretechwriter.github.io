@@ -11,6 +11,9 @@
         Addison-Wesley, Pearson VUE, Adobe, <a href="https://cointelegraph.com/authors/sean-moore" target="_blank">Cointelegraph</a>,
         Packt Publishing, and Manning.</p>
 
+      <p class="mb-5">I'm currently working with Vue 3, TypeScript, vuetify 3, and pinia, on a SASS application that enables users to manage
+        SCORM conformant e-learning content from the Cloud.</p>
+
       <p class="mb-5">Some companies I've had the utmost privilege and honor of working with as a developer include Adobe, Disney, Microsoft,
         Warner Bros., T-Mobile, and 2Advanced.</p>
 
@@ -32,3 +35,5 @@
     </v-row>
   </v-col>
 </template>
+<script setup lang="ts">
+</script>

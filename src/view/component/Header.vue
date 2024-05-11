@@ -1,7 +1,7 @@
 <template>
   <v-layout>
     <div class="bg-black main-header">
-      <v-icon icon="mdi-code-json" class="ml-6" color="orange-darken-1" />
+      <v-icon icon="mdi-code-json" class="ml-12" color="orange-darken-1" />
       <h2 class="mr-2 ml-4 mt-4 mb-4 text-grey-lighten-1" >{{ title }}</h2><h4 class="ml-1 mr-1 text-grey-darken-1">({{subtitle}})</h4>
     </div>
   </v-layout>
@@ -18,6 +18,7 @@ defineProps<Props>();
 
 <style>
 .main-header {
+  height: 130px;
   width: 100%;
   display: flex;
   align-items: center;

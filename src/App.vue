@@ -7,7 +7,7 @@
         <router-view></router-view>
       </v-main>
     </v-layout>
-    <v-footer class="main-footer bg-black" border>2024—Sean Moore ©</v-footer>
+    <v-footer class="main-footer bg-black d-flex justify-end" border>2024—Sean Moore ©</v-footer>
   </v-app>
 </template>
 
