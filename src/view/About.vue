@@ -32,7 +32,3 @@
     </v-row>
   </v-col>
 </template>
-
-<script setup lang="ts">
-import UnderConstruction from "../assets/under-construction.png";
-</script>
