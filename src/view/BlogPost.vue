@@ -3,7 +3,7 @@
   <div class="markdown-body" v-html="content"></div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { ref, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
 import { marked } from 'marked';
@@ -17,7 +17,7 @@ onMounted(async () => {
   const postId = route.params.id;
   const response = await fetch(`/blog-posts/${postId}.md`);
   const markdown = await response.text();
-  content.value = marked(markdown);
+  content.value = marked(markdown) as string;
 });
 </script>
 

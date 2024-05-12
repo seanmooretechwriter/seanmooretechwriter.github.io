@@ -3,7 +3,7 @@
   <BlogPostList />
 </template>
 
-<script setup lang="ts">
+<script lang="ts" setup>
 import BlogPostList from "../view/component/BlogPostList.vue";
 </script>
 
