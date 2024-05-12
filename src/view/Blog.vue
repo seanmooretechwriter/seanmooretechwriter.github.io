@@ -4,6 +4,6 @@
 </template>
 
 <script setup lang="ts">
-import BlogPostList from "@/view/component/BlogPostList.vue";
+import BlogPostList from "../view/component/BlogPostList.vue";
 </script>
 
