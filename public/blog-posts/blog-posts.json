@@ -1,14 +1,14 @@
 [
   {
     "id": "05-11-24",
-    "title": "First Post",
-    "description": "This is the first post in my blog.",
+    "title": "Hello world!",
+    "description": "The first in a series of fun blog posts",
     "filename": "05-11-24.md"
   },
   {
     "id": "05-12-24",
-    "title": "Second Post",
-    "description": "A deeper dive into more complex topics.",
+    "title": "Hello world!",
+    "description": "Languages, frameworks and tooling for the modern age",
     "filename": "05-12-24.md"
   }
 ]
