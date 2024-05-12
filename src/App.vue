@@ -2,7 +2,7 @@
   <v-app>
     <Header :title="applicationTitle" :subtitle="applicationSubtitle" />
     <v-layout class="main-app-container">
-      <NavigationMenu :width="210" class="mainNavigationMenu" />
+      <NavigationMenu :width="180" />
       <v-main class="main-body">
         <router-view></router-view>
       </v-main>

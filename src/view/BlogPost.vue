@@ -1,6 +1,6 @@
 <template>
   <div class="mb-5 page-title">Blog Post</div>
-  <div class="markdown-body" v-html="content"></div>
+  <div class="markdown-body" style="width: 600px" v-html="content"></div>
 </template>
 
 <script lang="ts" setup>
