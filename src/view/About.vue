@@ -1,6 +1,6 @@
 <template>
   <div class="mb-5 page-title">About</div>
-  <v-col cols="12" style="width: 600px;">
+  <v-col cols="12" style="width: 640px;">
     <v-row class="mr-8">
       <p class="mb-5">Throughout my career, I've functioned as a web, mobile, and desktop developer, technical writer, and <a href="https://www.oreilly.com/library/view/flex-4-cookbook/9781449388195/pr03.html" target="_blank"> reviewer</a>, technical editor,
         <a href="https://web.archive.org/web/20020325160521/http://lioncorp.net/" target="_blank"> graphic</a>, and UI designer, and journalist.
