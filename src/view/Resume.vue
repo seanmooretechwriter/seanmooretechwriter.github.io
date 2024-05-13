@@ -70,5 +70,3 @@
   color: grey;
 }
 </style>
-<script setup lang="ts">
-</script>
