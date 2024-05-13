@@ -6,7 +6,7 @@
         <div class="sidebar"  style="height: 100%;" >
           <NavigationMenu/>
         </div>
-        <div class="main-content pl-10">
+        <div class="main-content pl-10 pt-5">
           <router-view></router-view>
         </div>
       </div>
@@ -45,7 +45,7 @@ console.groupEnd();
 
 .container-fluid {
   display: flex;
-  margin: 0;
+  margin: 10px;
   padding: 0;
 }
 
