@@ -33,7 +33,7 @@ const icons = [
   "mdi-file-account"
 ];
 
-const navigate = (path) => {
+const navigate = (path: string) => {
   selectedIndex.value = selectedItemsMap.indexOf(path);
   router.push(path);
 };
