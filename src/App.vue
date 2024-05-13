@@ -1,9 +1,9 @@
 <template>
   <v-app>
-    <Header :title="applicationTitle" :subtitle="applicationSubtitle" style=" height: 135px; " />
+    <Header :title="applicationTitle" :subtitle="applicationSubtitle" style="height: 135px; " />
     <v-main style=" height: 100%">
       <div class="container-fluid" style="height: 100%;" >
-        <div class="sidebar"  style="height: 100%;" >
+        <div class="sidebar" style="height: 100%;" >
           <NavigationMenu/>
         </div>
         <div class="main-content pl-10 pt-5">
@@ -45,7 +45,7 @@ console.groupEnd();
 
 .container-fluid {
   display: flex;
-  margin: 10px;
+  margin: 0px;
   padding: 0;
 }
 
