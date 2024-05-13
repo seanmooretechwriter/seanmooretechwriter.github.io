@@ -1,13 +1,17 @@
 <template>
   <v-app>
-    <Header :title="applicationTitle" :subtitle="applicationSubtitle" />
-    <v-layout class="main-app-container">
-      <NavigationMenu :width="180" />
-      <v-main class="main-body">
-        <router-view></router-view>
-      </v-main>
-    </v-layout>
-    <v-footer class="main-footer bg-black d-flex justify-end" border>2024—Sean Moore ©</v-footer>
+    <Header :title="applicationTitle" :subtitle="applicationSubtitle" style=" height: 135px; " />
+    <v-main style=" height: 100%">
+      <div class="container-fluid" style="height: 100%;" >
+        <div class="sidebar"  style="height: 100%;" >
+          <NavigationMenu/>
+        </div>
+        <div class="main-content pl-10">
+          <router-view></router-view>
+        </div>
+      </div>
+    </v-main>
+    <div class="pr-8 main-footer bg-black d-flex justify-end">2024—Sean Moore ©</div>
   </v-app>
 </template>
 
@@ -22,7 +26,6 @@ const store = useMainApplicationStore();
 const { applicationID, applicationTitle, applicationSubtitle } = storeToRefs(store);
 console.info(`%c🐰 Starting: ${applicationID.value}...`, 'color:Green');
 
-
 console.timeEnd('🕓 Application Loaded');
 
 console.group(`%c✨ Project Information`, 'color:Yellow');
@@ -30,15 +33,31 @@ console.info(`%cEnvironment: ${import.meta.env.MODE}`, 'color:DodgerBlue');
 console.groupEnd();
 </script>
 
-<style>
-.main-app-container {
-  height: 90%;
-}
-
+<style scoped>
 .main-footer {
-  height: 10%;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  bottom: 0;
+  position: fixed;
 }
 
-.main-body {
+.container-fluid {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  width: 170px;
+  background-color: black;
+  height: 100%;
+}
+
+.main-content {
+  flex: 1;
 }
 </style>
+
+

@@ -32,7 +32,7 @@
       <p class="mb-5">I spent a significant amount of time as an early advocate for source control, TDD, best practices and coding standards. I <a href="https://www.scribd.com/presentation/95139359/Sean-Moore-Flex-Best-Practices" target="_blank"> authored content</a>
       and provided sessions at multiple conferences and user groups teaching the development community about these topics.</p>
 
-      <p class="mb-5">After many years in public facing, community oriented roles I took a step back and focused on fundamental software development concepts,
+      <p>After many years in public facing, community oriented roles I took a step back and focused on fundamental software development concepts,
         technical writing and self development. I started my career with a focus on design and gravitated toward development over time. After years of working as a developer,
         I felt the need to learn more about deeper software engineering principals and topics and also hone my writing skills to improve my overall communication skills and
         abilities. I also placed too much emphasis on work and the grind in my early career. I took time to really discover who I am and how to better connect with the
@@ -41,5 +41,3 @@
     </v-row>
   </v-col>
 </template>
-<script setup lang="ts">
-</script>
