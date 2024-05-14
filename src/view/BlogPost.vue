@@ -1,5 +1,6 @@
 <template>
   <div class="mb-5 page-title"><v-icon size="25" class="pr-4">mdi-post</v-icon><router-link to="/blog">Blog</router-link>&nbsp;> Blog Post</div>
+  <div class="postDate">{{route.params.id}}</div>
   <div class="markdown-body pb-5" style="width: 640px" v-html="content"></div>
 </template>
 
@@ -54,6 +55,13 @@ onMounted(async () => {
 
 .markdown-body em {
   font-style: italic;
+}
+
+.postDate {
+  color: grey;
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 5px;
 }
 
 </style>
