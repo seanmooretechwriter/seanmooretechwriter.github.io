@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-5 page-title">Resume</div>
+  <div class="mb-5 page-title"><v-icon size="25" class="pr-4">mdi-post</v-icon>Resume</div>
 
   <div class="container">
     <div class="content-section mr-8">
