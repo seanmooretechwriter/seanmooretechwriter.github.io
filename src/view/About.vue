@@ -1,7 +1,6 @@
 <template>
   <div class="mb-5 page-title">About</div>
-  <v-col cols="12" style="width: 640px;">
-    <v-row class="mr-8">
+  <div style="width: 640px;">
       <p class="mb-5">Throughout my career, I've functioned as a web, mobile, and desktop developer, technical writer, and <a href="https://www.oreilly.com/library/view/flex-4-cookbook/9781449388195/pr03.html" target="_blank"> reviewer</a>, technical editor,
         <a href="https://web.archive.org/web/20020325160521/http://lioncorp.net/" target="_blank"> graphic</a>, and UI designer, and journalist.
         I've written on topics ranging from web development to crypto and Web3 to
@@ -38,6 +37,5 @@
         abilities. I also placed too much emphasis on work and the grind in my early career. I took time to really discover who I am and how to better connect with the
         world around me. If there is one thing I could pass along to younger developers and people just starting a career it would be to mind your mental health and always
         strive to find and maintain a healthy work life balance. Don't make work your identify, and find hobbies and interests outside of software development.</p>
-    </v-row>
-  </v-col>
+    </div>
 </template>
