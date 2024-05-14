@@ -11,7 +11,7 @@
         Addison-Wesley, Pearson VUE, Adobe, <a href="https://cointelegraph.com/authors/sean-moore" target="_blank">Cointelegraph</a>,
         <a href="https://www.packtpub.com/en-ch/product/flash-development-for-android-cookbook-pref04-9781849691420/chapter/about-the-reviewers/about-the-reviewers" target="_blank"> Packt Publishing</a>, and <a href="https://www.manning.com/books/adobe-air-in-action" target="_blank"> Manning</a>.</p>
 
-      <p class="mb-5">I'm currently working with Vue 3, TypeScript, vuetify 3, and pinia, on a SASS application that enables users to manage and test
+      <p class="mb-5">I'm currently working with Vue 3, TypeScript, vuetify 3, and pinia, on a SaaS application that enables users to manage and test
         SCORM conformant e-learning content from the Cloud.</p>
 
       <p class="mb-5">Some companies I've had the utmost privilege and honor of working with as a developer include Adobe, Disney, Microsoft,
